@@ -1,0 +1,42 @@
+/*Main CSS file*/
+
+body {
+    font-family: monospace;
+}
+
+header {
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    color: navy;
+    font-size: 400%;
+    resize: both;
+}
+
+
+nav ul{
+    background-color: #f1f1f1;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nameBox {
+    height: 50px;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    resize: both;
+}

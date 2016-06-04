@@ -1,0 +1,17 @@
+Things to Implement:
+
+Idea: Creating a responsive website to advertise myself through details about me, projects I've done, 
+      displaying an up-to-date resume, and contact information (eg. github, linkedIn, email)
+      
+Start with:
+
+1) Create a navigation bar that is transparent and responsive to the website where as it will scroll down with the site
+    -> navigation bar consists of the title; Home, About Me, Projects, Resume, Contact Info
+    
+2) Learn how to make the page dynamically resize when changing page layout
+
+3) Implement angularJS into the project, and use property ng-model to link input textbox name entered to guide user through site
+
+4) Make the resume open on a new tab with pdf
+
+5) 
