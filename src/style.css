@@ -1,5 +1,9 @@
 /*Main CSS file*/
 
+* {
+    white-space: nowrap;
+}
+
 body {
     font-family: monospace;
 }
@@ -10,33 +14,71 @@ header {
     text-align: center;
     color: navy;
     font-size: 400%;
-    resize: both;
 }
 
-
-nav ul{
-    background-color: #f1f1f1;
-    text-align: center;
+.navBar {
+    margin:0;
+    padding: 0;
     overflow: hidden;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-color: #f1f1f1;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 20px;
+.navBar li{
+    list-style-type: none;
 }
+
+.leftSide {
+    margin-top: -5px;
+    height: 58px;
+    float: left;
+}
+
+.leftSide:hover {
+    background-color: black;
+}
+
+.rightSide {
+    float: right;
+    color: dodgerblue;
+    border-left: 0.5px solid black;
+}
+
+.rightSide:hover {
+    background-color: dodgerblue;
+    color: #f1f1f1;
+}
+
+
+.navBar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    /*transition: 0.3s;*/
+    font-size: 15px;
+}
+
+#home {
+    width: 20%;
+    height: auto;
+}
+
 
 a {
     text-decoration: none;
     color: inherit;
+    float: center;
 }
 
 .nameBox {
-    height: 50px;
-    font-size: 30px;
-    width: 400px;
+    height: 50%;
+    font-size: 40%;
+    width: 50%;
     text-align: center;
     resize: both;
+}
+
+
+.spacing {
+    padding: 5%;
 }
