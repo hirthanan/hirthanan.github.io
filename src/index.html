@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <title> Welcome </title>
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
-        <nav>
-            <ul>
-                <li> <a href="#"> Home </a> </li>
-                <li> <a href="#/aboutme"> About Me </a> </li>
-                <li> <a href="#/projects"> Projects </a> </li>
-                <li> <a href="#/resume"> Resume </a> </li>
-                <li> <a href="#/contact"> Contact Info </a> </li>
-            </ul>
-        </nav>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <header> Hi, <br/>
-        &nbsp;What's your name?: <br/>
-            <input class="nameBox" type="text" placeholder="Enter your name here!"/>
-    </header>
+<body ng-app="myWebsite">
+    <nav ng-controller="selectActive">
+        <ul class="navBar">
+                <li class="leftSide"> <a href="index.html" id="home"> <img src="images/house.png" width="25px" height="25px"/></a> </li>
+                <li class="rightSide"> <a href="#/aboutme" id="about"> About Me </a> </li>
+                <li class="rightSide"> <a href="#/projects" id="projects"> Projects </a> </li>
+                <li class="rightSide"> <a href="images/CSResume.pdf" id="resume"> Resume </a> </li>
+                <li class="rightSide"> <a href="#/contact" id="contact"> Contact </a> </li>
+        </ul>
+    </nav>
+    <div class="spacing"></div>
+    
 </body>
 
 </html>
