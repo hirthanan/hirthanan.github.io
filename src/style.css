@@ -35,6 +35,7 @@ header {
 
 .leftSide:hover {
     background-color: black;
+    padding-bottom: 3px;
 }
 
 .rightSide {
@@ -78,7 +79,54 @@ a {
     resize: both;
 }
 
-
 .spacing {
     padding: 5%;
+}
+
+.icon {
+    display: none;
+}
+
+
+@media screen and (max-width:470px) {
+  ul.navBar li:not(:first-child) {
+      display: none;
+      }
+  ul.navBar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:470px) {
+  #home {
+      width: 7%;
+      height: auto;
+  }  
+    
+  ul.navBar.responsive {position: relative;}
+  ul.navBar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  ul.navBar.responsive li {
+    float: none;
+    display: inline;
+    border: none;
+  }
+  
+  
+  ul.navBar.responsive li a {
+    display: block;
+    text-align: left;
+    color: black;
+  }
+  
+  ul.navBar.responsive li a:hover {
+      background-color: dodgerblue;
+      color: #f1f1f1;
+  }
+  
 }
