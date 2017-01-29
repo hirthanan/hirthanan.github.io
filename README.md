@@ -1,1 +1,1 @@
-[Link to my Github Page](hirthanan.github.io/)
+[Link to my Github Page](https://hirthanan.github.io/)
