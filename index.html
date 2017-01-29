@@ -3,20 +3,20 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src="mainCtrl.js"></script>
+    <script src="src/mainCtrl.js"></script>
     <title> Welcome </title>
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body ng-app="myApp">
     <nav ng-controller="navCtrl">
         <ul class="navBar">
-                <li class="leftSide"> <a href="index.html" id="home"> <img src="images/house.png" width="25px" height="25px"/></a> </li>
+                <li class="leftSide"> <a href="index.html" id="home"> <img src="src/images/house.png" width="25px" height="25px"/></a> </li>
                 <li class="rightSide"> <a href="#/contact" id="contact"> Contact </a> </li>
-                <li class="rightSide"> <a href="images/CSResume.pdf" id="resume"> Resume </a> </li>
+                <li class="rightSide"> <a href="src/images/CSResume.pdf" id="resume"> Resume </a> </li>
                 <li class="rightSide"> <a href="#/projects" id="projects"> Projects </a> </li>
                 <li class="rightSide"> <a href="#/aboutme" id="about"> About </a> </li>
                 <li class="icon"> <a href="javascript:void(0);" ng-click="myFunction()">&#9776;</a> </li>
