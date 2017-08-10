@@ -61,6 +61,7 @@ header {
 #home {
     width: 20%;
     height: auto;
+    background-color: red;
 }
 
 
@@ -101,31 +102,31 @@ a {
   #home {
       width: 7%;
       height: auto;
-  }  
-    
+  }
+
   ul.navBar.responsive {position: relative;}
   ul.navBar.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  
+
   ul.navBar.responsive li {
     float: none;
     display: inline;
     border: none;
   }
-  
-  
+
+
   ul.navBar.responsive li a {
     display: block;
     text-align: left;
     color: black;
   }
-  
+
   ul.navBar.responsive li a:hover {
       background-color: dodgerblue;
       color: #f1f1f1;
   }
-  
+
 }
