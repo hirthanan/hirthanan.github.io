@@ -1,0 +1,14 @@
+
+.cropCanyon {
+    width: 40%;
+    overflow: hidden;
+}
+
+.cropCanyon img {
+    width: 50%;
+    margin: -100px 0 -100px 0;
+}
+
+body {
+    font-family: monospace;
+}
