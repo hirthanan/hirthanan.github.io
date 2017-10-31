@@ -15,12 +15,7 @@
 
 @media screen and (max-width:670px) {
     .aboutMe {
-        font-size: 50%;
+        font-size: 1.5vw;
     }
 
-}
-
-
-body {
-    font-family: monospace;
 }
