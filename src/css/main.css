@@ -6,6 +6,7 @@
 
 body {
     font-family: monospace;
+    background-color: #F5F5DC;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
     margin:0;
     padding: 0;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #f2f2da;
 }
 
 .navBar li{
