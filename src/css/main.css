@@ -134,3 +134,14 @@ a {
 .intro {
     font-size: 2vw;
 }
+
+.ghCommits
+    img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    h4 {
+        text-align: center;
+    }
+}
