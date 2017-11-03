@@ -32,9 +32,6 @@ header {
     float: left;
 }
 
-.leftSide:hover {
-    background-color: gold;
-}
 
 .rightSide {
     float: right;
