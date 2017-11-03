@@ -29,8 +29,6 @@ header {
 }
 
 .leftSide {
-    margin-top: -5px;
-    height: 58px;
     float: left;
 }
 
@@ -53,15 +51,9 @@ header {
 .navBar li a {
     display: inline-block;
     text-align: center;
-    padding: 18px 18px;
+    padding: 19px 19px;
     text-decoration: none;
-    /*transition: 0.3s;*/
     font-size: 15px;
-}
-
-#home {
-    width: 20%;
-    height: auto;
 }
 
 
@@ -87,8 +79,17 @@ a {
     display: none;
 }
 
+#home {
+    margin:-13px;
+    width: 40px;
+}
 
-@media screen and (max-width:470px) {
+#home img {
+    width:40px;
+}
+
+
+@media screen and (max-width:620px) {
   ul.navBar li:not(:first-child) {
       display: none;
       }
@@ -98,12 +99,7 @@ a {
   }
 }
 
-@media screen and (max-width:470px) {
-  #home {
-      width: 7%;
-      height: auto;
-  }
-
+@media screen and (max-width:620px) {
   ul.navBar.responsive {position: relative;}
   ul.navBar.responsive li.icon {
     position: absolute;
@@ -122,6 +118,19 @@ a {
     display: block;
     text-align: left;
     color: black;
+  }
+
+  ul.navBar.responsive #home {
+    background-color: transparent;
+  }
+
+  ul.navBar.responsive li.icon {
+      background-color: transparent;
+  }
+
+  ul.navBar.responsive li.icon a:hover {
+      background-color: transparent;
+      color: black;
   }
 
   ul.navBar.responsive li a:hover {
