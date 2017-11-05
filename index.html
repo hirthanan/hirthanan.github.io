@@ -4,6 +4,7 @@
 <head>
     <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="src/controllers/myApp.js"></script>
     <script src="src/controllers/mainCtrl.js"></script>
     <title> Welcome </title>
     <meta charset="utf-8" />
@@ -12,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body ng-app="myApp">
+<body ng-app="myApp.controllers">
     <nav ng-controller="navCtrl">
         <ul class="navBar">
             <li class="leftSide"> <a href="index.html" id="home"> <img src="src/images/thumbnail.png"/></a> </li>
