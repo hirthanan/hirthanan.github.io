@@ -17,7 +17,8 @@ angular.module('myApp.controllers').controller('ghCtrl', function($scope, $http)
                 if (repoData[i].name == "Switch-Statement-Assignment") {
                     continue;
                 }
-                projects.push(capitalizeFirstLetter(repoData[i].name));
+                projects.push({"name":capitalizeFirstLetter(repoData[i].name),
+                               "gh_url":repoData[i].html_url});
             }
             $scope.repoData = repoData;
             $scope.projects = projects;
