@@ -1,0 +1,29 @@
+.button {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    background-color: #222; /* dark blue */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    user-select: none;
+    letter-spacing: 1px;
+    color: white;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    Transition: background-color 0.1s ease-out;
+    -webkit-filter: url("#filter");
+    filter: url("#filter");
+    width: 300px;
+}
+
+.button:hover {
+    background-color: #2CD892; /* green */
+}
+
+.svg-filters {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
