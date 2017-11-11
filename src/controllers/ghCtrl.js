@@ -20,6 +20,6 @@ angular.module('myApp.controllers').controller('ghCtrl', function($scope, $http)
                 projects.push({"name":capitalizeFirstLetter(repoData[i].name),
                                "gh_url":repoData[i].html_url});
             }
-            $scope.projects = projects;
+            $scope.projects = projects.reverse();
         });
 });

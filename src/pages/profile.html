@@ -24,16 +24,13 @@
     </nav>
     <div ng-controller="ghCtrl">
         <!-- <p> My updated list of projects include: {{projects}} </p> -->
-        <table cellspacing="0" cellpadding="0">
-           <colgroup span="4"></colgroup>
-           <tbody>
-             <tr ng-repeat="project in projects">
-                 <td>
-                     <a href={{project.gh_url}}> {{ project.name }} </a>
-                </td>
-             </tr>
-         </tbody>
-         </table>
+        <h2> View some of my projects, dynamically retrieved from my Github: </h2>
+        <center>
+            <span ng:repeat="(index, project) in projects">
+                <button> <a href={{project.gh_url}}> {{ project.name }} </a> </button>
+                <br ng:show="(index+1)%3==0" />
+            </span>
+        </center>
     </div>
 </body>
 
