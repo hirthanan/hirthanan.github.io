@@ -25,10 +25,11 @@
     <div ng-controller="ghCtrl">
         <!-- <p> My updated list of projects include: {{projects}} </p> -->
         <h2> View some of my projects, dynamically retrieved from my Github: </h2>
+        <br/> <br/>
         <center>
-            <span ng:repeat="(index, project) in projects">
-                <button> <a href={{project.gh_url}}> {{ project.name }} </a> </button>
-                <br ng:show="(index+1)%3==0" />
+            <span ng-repeat="(index, project) in projects">
+                <button class="button" style="width:300px"> <a href={{project.gh_url}}> {{ project.name }} </a> </button>
+                <br ng-show="(index+1)%3==0" />
             </span>
         </center>
     </div>
