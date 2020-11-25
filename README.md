@@ -1,1 +1,1 @@
-[Check out my Github Page](https://hirthanan.github.io/)
+[View My Personal Website Here](https://hirthanan.github.io/indigo)

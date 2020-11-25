@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src="src/controllers/myApp.js"></script>
-    <script src="src/controllers/mainCtrl.js"></script>
-    <title> Welcome </title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="src/css/main.css" />
-    <!-- <link rel="import" href="src/navbar.html"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body ng-app="myApp.controllers">
-    <nav ng-controller="navCtrl">
-        <ul class="navBar">
-            <li class="leftSide"> <a href="index.html" id="home"> <img src="src/images/thumbnail.png"/></a> </li>
-            <li class="rightSide"> <a href="src/pages/contact.html" id="contact"> Contact </a> </li>
-            <li class="rightSide"> <a href="src/images/resume.pdf" id="resume"> Resume </a> </li>
-            <li class="rightSide"> <a href="https://github.com/hirthanan" id="github"> Github </a> </li>
-            <li class="rightSide"> <a href="src/pages/about.html" id="about"> About </a> </li>
-            <li class="rightSide"> <a href="src/pages/project.html" id="project"> Projects </a> </li>
-            <li class="icon"> <a href="javascript:void(0);" ng-click="myFunction()">&#9776;</a> </li>
-        </ul>
-    </nav>
-    <div class="intro">
-        <h1> Hi </h1>
-        <h2> Welcome to my landing page. </h2>
-        <h2> Learn more about me by visiting my <a href="src/pages/about.html" style="color:grey">About</a> page! </h2>
-    </div>
-    <div class="spacing"></div>
-    <div class="ghCommits">
-        <img src="https://ghchart.rshah.org/hirthanan"/>
-        <h4> I'm working on it </h4>
-    </div>
-</body>
-
-</html>
+---
+layout: page
+title: Home
+---
